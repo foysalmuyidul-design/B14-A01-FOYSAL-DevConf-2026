@@ -1,0 +1,123 @@
+/* reuse */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    /* font-family: "Arimo", sans-serif; */
+}
+/* common */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.common-button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #1d4ed8;
+}
+
+.common-heading{
+    font-size: 56px;
+    font-weight: 700;
+    color: #000102;
+    text-align: center;
+}
+
+
+.header-parent{
+    
+}
+
+
+.nav-parent{
+    margin: 20px auto;
+    max-height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+
+}
+.logo img{
+    width:30px;
+    height: 30px;
+    display:block;
+}
+.logo div{
+    font-family: "Arimo", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.logo div h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0d1b2a;
+}
+.nav-items{
+    
+    display: flex;
+    
+    align-items: center;
+}
+.nav-items ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-items ul a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+}
+
+/* hero */
+.hero-parent{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./assets/banner.jpg");
+    background-size: cover;      /* Fill the section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    min-height: 800px;
+}
+.hero-parent h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 120px 0 24px 0;
+}
+
+.hero-parent h1 span{
+    font-style:italic;
+}
+.hero-parent p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-parent button{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 300px auto 0;
+    text-align: center;
+    padding: 17px 50px;
+}
