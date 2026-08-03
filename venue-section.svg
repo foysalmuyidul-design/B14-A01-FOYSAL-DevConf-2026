@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="650" viewBox="0 0 1200 650" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Background -->
+    <rect width="1200" height="650" fill="#F8F9FC"/>
+
+    <!-- Section Title -->
+    <text x="600" y="70"
+          text-anchor="middle"
+          font-family="Inter, Arial, sans-serif"
+          font-size="40"
+          font-weight="700"
+          fill="#1E293B">
+        Venue &amp; Location
+    </text>
+
+    <text x="600" y="105"
+          text-anchor="middle"
+          font-family="Inter, Arial, sans-serif"
+          font-size="18"
+          fill="#64748B">
+        Join us at the Moscone Center, San Francisco • June 4–6, 2026
+    </text>
+
+    <!-- Left Image Placeholder -->
+    <rect x="80" y="150"
+          width="560"
+          height="360"
+          rx="18"
+          fill="#DCE3F3"/>
+
+    <!-- Image Icon -->
+    <rect x="290" y="255"
+          width="140"
+          height="90"
+          rx="8"
+          stroke="#94A3B8"
+          stroke-width="4"
+          fill="none"/>
+
+    <circle cx="325"
+            cy="285"
+            r="10"
+            fill="#94A3B8"/>
+
+    <path d="M305 325 L345 290 L390 340 L430 300"
+          stroke="#94A3B8"
+          stroke-width="4"
+          fill="none"/>
+
+    <text x="360"
+          y="380"
+          text-anchor="middle"
+          font-family="Inter"
+          font-size="20"
+          fill="#64748B">
+        Venue Image
+    </text>
+
+    <!-- Right Card -->
+    <rect x="700"
+          y="150"
+          width="420"
+          height="360"
+          rx="18"
+          fill="white"
+          stroke="#E2E8F0"/>
+
+    <!-- Heading -->
+    <text x="730"
+          y="195"
+          font-family="Inter"
+          font-size="28"
+          font-weight="700"
+          fill="#1E293B">
+        Moscone Center
+    </text>
+
+    <text x="730"
+          y="225"
+          font-family="Inter"
+          font-size="16"
+          fill="#64748B">
+        San Francisco, California
+    </text>
+
+    <!-- Divider -->
+    <line x1="730"
+          y1="250"
+          x2="1090"
+          y2="250"
+          stroke="#E2E8F0"/>
+
+    <!-- Feature Cards -->
+
+    <rect x="730" y="275" width="165" height="80" rx="12" fill="#F8FAFC"/>
+    <text x="748" y="305" font-size="24">🚇</text>
+    <text x="785" y="305"
+          font-family="Inter"
+          font-size="16"
+          font-weight="600"
+          fill="#1E293B">
+        Easy Transit
+    </text>
+    <text x="785" y="327"
+          font-family="Inter"
+          font-size="13"
+          fill="#64748B">
+        BART &amp; Muni nearby
+    </text>
+
+    <rect x="925" y="275" width="165" height="80" rx="12" fill="#F8FAFC"/>
+    <text x="943" y="305" font-size="24">🏨</text>
+    <text x="980" y="305"
+          font-family="Inter"
+          font-size="16"
+          font-weight="600"
+          fill="#1E293B">
+        Hotels
+    </text>
+    <text x="980" y="327"
+          font-family="Inter"
+          font-size="13"
+          fill="#64748B">
+        Walking distance
+    </text>
+
+    <rect x="730" y="375" width="165" height="80" rx="12" fill="#F8FAFC"/>
+    <text x="748" y="405" font-size="24">☕</text>
+    <text x="785" y="405"
+          font-family="Inter"
+          font-size="16"
+          font-weight="600"
+          fill="#1E293B">
+        Cafés
+    </text>
+    <text x="785" y="427"
+          font-family="Inter"
+          font-size="13"
+          fill="#64748B">
+        Nearby restaurants
+    </text>
+
+    <rect x="925" y="375" width="165" height="80" rx="12" fill="#F8FAFC"/>
+    <text x="943" y="405" font-size="24">📶</text>
+    <text x="980" y="405"
+          font-family="Inter"
+          font-size="16"
+          font-weight="600"
+          fill="#1E293B">
+        Free Wi-Fi
+    </text>
+    <text x="980" y="427"
+          font-family="Inter"
+          font-size="13"
+          fill="#64748B">
+        High-speed internet
+    </text>
+
+    <!-- Buttons -->
+    <rect x="730"
+          y="475"
+          width="150"
+          height="48"
+          rx="8"
+          fill="#2563EB"/>
+
+    <text x="805"
+          y="505"
+          text-anchor="middle"
+          font-family="Inter"
+          font-size="16"
+          font-weight="600"
+          fill="white">
+        View Map
+    </text>
+
+    <rect x="900"
+          y="475"
+          width="190"
+          height="48"
+          rx="8"
+          fill="white"
+          stroke="#CBD5E1"/>
+
+    <text x="995"
+          y="505"
+          text-anchor="middle"
+          font-family="Inter"
+          font-size="16"
+          font-weight="600"
+          fill="#1E293B">
+        Get Directions
+    </text>
+
+</svg>
